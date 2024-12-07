@@ -41,5 +41,5 @@ This project documents the step-by-step configuration and deployment of a server
 
 ## Contact
 For further questions or feedback, please contact:
-- **Email**: junsoo.hyun@example.com
-- **LinkedIn**: [Junsoo Hyun's Profile](https://linkedin.com/in/your-profile)
+- **Email**: hyunjunsoo1@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/junsoo-hyun-43358b300/
