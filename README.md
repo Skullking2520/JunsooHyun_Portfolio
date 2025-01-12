@@ -69,5 +69,5 @@ A simple blackjack game developed in NASM assembly language. This project focuse
 ---
 
 ## Contact
-- **Email**: hyunjunsoo1@gmail.com
+- **Email**: hyunjunsoo1@gmail.com, +6011-1206-4649
 - **LinkedIn**: (https://linkedin.com/in/your-profil](https://www.linkedin.com/in/junsoo-hyun-43358b300/)
