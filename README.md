@@ -1,73 +1,30 @@
-# JunsooHyun_Portfolio
-Welcome to my academic portfolio! This repository highlights several academic projects that demonstrate my skills in software development, problem-solving, and teamwork. Each folder contains a specific project with its own description and source code.
+# 학교 수업 과제 모음
 
-## Projects
+Asia Pacific University of Technology & Innovation 재학 중 수행한 수업 과제를 모은 저장소입니다. 개인 졸업 프로젝트와 부트캠프·인턴 업무는 별도 저장소에서 관리합니다.
 
-### **1. Email Management System** *(Team Project)*
-This C++ project simulates an email management system, focusing on key functionalities such as user registration, email drafting, and spam filtering. The project demonstrates advanced data structures (linked lists) and algorithms to handle email storage and search operations effectively.
+## 과제 목록
 
-#### **My Contributions**
-- Designed and implemented the **Inbox** and **Outbox** modules using linked lists.
-- Developed file I/O functionality for saving and loading emails to/from external files.
-- Integrated the user authentication system and email management logic.
-- Collaborated with team members to design the system's overall architecture.
+| 과제 | 주요 내용 | 수행 형태 | 코드·설명 |
+| --- | --- | --- | --- |
+| 이메일 관리 시스템 | C++ 연결리스트, 받은편지함·보낸편지함과 파일 저장 | 팀 과제 | [EmailManagementSystem](EmailManagementSystem/) |
+| 생산라인 시뮬레이션 | Java 스레드, 생산 공정·대기열·동기화 | 개인 과제 | [FactorySimulation](FactorySimulation/) |
+| 블랙잭 게임 | NASM 어셈블리, 게임 상태와 분기 처리 | 개인 과제 | [BlackjackGame](BlackjackGame/) |
+| 영상 처리 | 이미지 영역 추출·합성·크기 조정 | 수업 과제 | [Image_Processing_Project](Image_Processing_Project/) |
+| Linux 서버 구성 | Linux 서버 구성 보고서 | 수업 과제 | [Linux_Server_Project](Linux_Server_Project/) |
 
-#### **Features**
-- **User Authentication**: Users can register, log in, and securely access their inbox and outbox.
-- **Inbox/Outbox Management**: Emails are managed using custom linked lists for efficient storage and retrieval.
-- **Spam Detection**: Filters spam based on keyword detection and email sending frequency.
+실행 환경과 상세 내용은 각 폴더의 README에서 확인할 수 있습니다.
 
-#### **Skills Highlighted**
-- Object-Oriented Programming (OOP) in C++
-- Custom implementation of linked lists
-- File I/O operations for email storage and logging
+## 이메일 관리 시스템에서 맡은 부분
 
-#### **Files**
-- `main.cpp`: The main program logic and menu system.
-- `Inbox.cpp` & `Outbox.cpp`: Manage the inbox and outbox functionality.
-- `UserManager.cpp`: Handles user registration and login.
-- `Filter.cpp`: Implements spam filtering.
+팀 과제에서 맡은 부분은 다음과 같습니다.
 
----
+- 연결리스트를 사용하는 Inbox·Outbox 모듈
+- 이메일 저장·불러오기용 파일 입출력
+- 사용자 인증과 이메일 관리 기능 연결
+- 팀원과 전체 구조 조율
 
-### **2. Factory Simulation** *(Individual Project)*
-A Java-based project that simulates a realistic factory production line. This project uses multi-threading to coordinate processes such as sterilization, filling, sealing, labeling, and packaging.
+## 다른 경험
 
-#### **Features**
-- **Multi-threaded Simulation**: Each production stage is implemented as a separate thread.
-- **Real-Time Statistics**: Tracks production metrics, defect rates, and logistics performance.
-- **Thread Synchronization**: Ensures thread safety using `BlockingQueue` and `Semaphore`.
-
-#### **Skills Highlighted**
-- Multi-threading and concurrency in Java
-- Inter-thread communication
-- Queue-based task management
-
-#### **Files**
-- `Factory.java`: Core factory simulation logic.
-- `Sterilizer.java`, `Filler.java`, `Sealer.java`: Represent various production stages.
-- `Forklift.java`, `Van.java`: Handle logistics and transportation.
-
----
-
-### **3. Blackjack Game** *(Individual Project)*
-A simple blackjack game developed in NASM assembly language. This project focuses on understanding low-level programming and memory management.
-
-#### **Features**
-- **Gameplay**: Implements basic blackjack rules.
-- **Procedural Programming**: Organized using modular assembly code.
-- **Memory Management**: Efficient handling of game state in assembly.
-
-#### **Skills Highlighted**
-- Low-level programming with NASM
-- Understanding of memory and register usage
-- Debugging assembly code
-
-#### **Files**
-- `Blackjack.asm`: The source code for the blackjack game.
-
----
-
-## Contact
-- **Email**: hyunjunsoo1@gmail.com, +6011-1206-4649
-- **LinkedIn**: (https://linkedin.com/in/your-profil](https://www.linkedin.com/in/junsoo-hyun-43358b300/)
+- [개인 졸업 프로젝트 · AI 진로 추천](https://github.com/Skullking2520/FYP)
+- [블록체인 수업 팀 과제 · 게임 아이템 거래](https://github.com/Skullking2520/BCD)
+- [대표 프로젝트와 인턴 경험 전체 목록](https://github.com/Skullking2520)
