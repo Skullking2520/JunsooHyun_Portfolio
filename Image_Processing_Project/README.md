@@ -1,7 +1,5 @@
-# 영상 처리 과제 자료
+# Image processing assignment materials
 
-도시 이미지 합성과 시각 효과를 다룬 학교 과제 자료입니다. 이 폴더에는 `Image 1`, `Image 2`의 이미지 자산이 포함되어 있습니다.
+Image assets and compositing results from a university assignment. The `Image 1` and `Image 2` folders contain the available materials.
 
-## 현재 포함 범위
-
-원본·합성 이미지 자료를 확인할 수 있습니다. 현재 저장소에는 이 작업을 재현할 Python 실행 소스가 포함되어 있지 않아, 설치·실행 명령을 제공하지 않습니다. 이미지 자료는 과제 결과를 살펴보는 용도로 구분합니다.
+No executable processing source is included in this folder, so the repository does not provide commands to reproduce the transformations.

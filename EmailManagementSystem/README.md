@@ -1,24 +1,20 @@
-# C++ 이메일 관리 시스템
+# Email management system
 
-학교 팀 과제로 작성한 콘솔 프로그램입니다. 받은편지함·보낸편지함, 사용자 관리와 필터를 연결합니다.
+A C++ console application from a team assignment. It combines inbox and outbox lists, user management, filters, and file storage. My contribution is described in the [collection README](../README.md).
 
-## 코드 구성
-
-| 파일 | 역할 |
+| Entry or module | Role |
 | --- | --- |
-| [main.cpp](main.cpp) | 콘솔 메뉴와 기능 연결 |
-| [Inbox.cpp](Inbox.cpp) · [Outbox.cpp](Outbox.cpp) | 받은편지함·보낸편지함 |
-| [EL.cpp](EL.cpp) · [EM.cpp](EM.cpp) | 이메일 목록과 이메일 객체 |
-| [UserManager.cpp](UserManager.cpp) · [User.cpp](User.cpp) | 사용자 처리 |
-| [Filter.cpp](Filter.cpp) | 필터 |
+| [main.cpp](main.cpp) | Console menu and integration |
+| [Inbox.cpp](Inbox.cpp), [Outbox.cpp](Outbox.cpp) | Mailbox operations |
+| [EL.cpp](EL.cpp), [EM.cpp](EM.cpp) | Linked lists and email records |
+| [User.cpp](User.cpp), [UserManager.cpp](UserManager.cpp) | User records and authentication |
+| [Filter.cpp](Filter.cpp) | Filtering |
 
-## 빌드
+Build and run from this folder with a C++ compiler:
 
-이 폴더에서 C++ 컴파일러로 빌드합니다.
-
-```bash
+```sh
 g++ -std=c++11 main.cpp Inbox.cpp Outbox.cpp EL.cpp EM.cpp User.cpp UserManager.cpp Filter.cpp -o EmailSystem
 ./EmailSystem
 ```
 
-학습용 사용자 인증이며 운영용 보안 시스템으로 검증된 구현은 아닙니다. 실제 이메일이나 비밀번호 대신 테스트 값을 사용합니다.
+This is a local simulation without a mail-server connection. Its coursework authentication has not been validated for protecting real accounts; use test credentials.

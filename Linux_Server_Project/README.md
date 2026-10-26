@@ -1,7 +1,5 @@
-# Linux 서버 구성 과제
+# Linux server setup report
 
-학교에서 진행한 Linux 서버 구성 과제의 보고서 자료입니다.
+University coursework documented in [Linux Project.docx](<Linux Project.docx>).
 
-## 포함 자료
-
-[Linux Project.docx](<Linux Project.docx>)에서 구성 과정과 과제 내용을 확인할 수 있습니다. 현재 저장소에는 자동 설치 스크립트나 재현용 서버 설정 전체가 포함되어 있지 않습니다. 보고서 자료로 분류하며 운영 중인 서버로 소개하지 않습니다.
+This folder contains the report, not a running server or a complete set of installation scripts and configuration files.
