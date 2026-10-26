@@ -28,3 +28,14 @@ Asia Pacific University of Technology & Innovation 재학 중 수행한 수업 �
 - [개인 졸업 프로젝트 · AI 진로 추천](https://github.com/Skullking2520/FYP)
 - [블록체인 수업 팀 과제 · 게임 아이템 거래](https://github.com/Skullking2520/BCD)
 - [대표 프로젝트와 인턴 경험 전체 목록](https://github.com/Skullking2520)
+
+
+## 자료를 읽는 순서
+
+- [이메일 관리](EmailManagementSystem/README.md): C++ 소스와 컴파일 방법
+- [공장 생산라인](FactorySimulation/README.md): Java 동시성 시뮬레이션
+- [블랙잭](BlackjackGame/README.md): 어셈블리 코드와 환경 조건
+- [영상 처리](Image_Processing_Project/README.md): 이미지·결과 자료 범위
+- [Linux 서버 구성](Linux_Server_Project/README.md): 보고서 위치
+
+각 폴더에 실제로 포함된 코드와 자료 범위를 기준으로 안내합니다. 자료만 있는 항목은 실행 가능한 프로그램으로 소개하지 않습니다.

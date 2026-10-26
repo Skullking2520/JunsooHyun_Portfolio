@@ -1,36 +1,7 @@
-# Image Processing Project: Dream City
+# 영상 처리 과제 자료
 
-This project explores advanced image processing and special effect techniques to create a futuristic and apocalyptic cityscape. Using Python and libraries like OpenCV and PIL, the project enhances images, applies animations, and generates dynamic visual effects.
+도시 이미지 합성과 시각 효과를 다룬 학교 과제 자료입니다. 이 폴더에는 `Image 1`, `Image 2`의 이미지 자산이 포함되어 있습니다.
 
-## Features
-- **Image Enhancement**: Techniques like resizing, color modification, and HDR adjustments.
-- **Special Effects**:
-  - Light beam animations.
-  - Drone animations in a 3D-like environment.
-  - Scrolling holographic text within predefined areas.
-- **Final Outputs**: GIF animations showcasing the transformed city.
+## 현재 포함 범위
 
-## Key Techniques
-1. **Image Resizing and Overlay**: Adapting images for a futuristic cityscape.
-2. **Dynamic Animations**:
-   - Light beams flowing along paths.
-   - Drones moving with randomized behaviors.
-   - Scrolling text within holograms.
-3. **Futuristic Aesthetics**: Combining color overlays, grids, and Gaussian blur.
-
-## Files
-- **Documentation**:
-  - `Image processing through python.docx`: Detailed description of techniques and results.
-- **Scripts**:
-  - `Image 1` : Includes images and Scripts for image 1
-  - `final.py`: Combines all effects into a cohesive animated GIF.
-
-  - `Image 2` : Includes images and Scripts for image 2
-  - `road_extraction.py`: Extracts and processes road images from larger scenes.
-  - `resize_road.py`: Adjusts image dimensions while maintaining aspect ratio.
-  - `merge.py`: Overlays road images onto background cityscapes.
-
-## How to Use
-1. **Setup**: Ensure Python and required libraries (OpenCV, PIL, NumPy) are installed.
-   ```bash
-   pip install opencv-python pillow numpy
+원본·합성 이미지 자료를 확인할 수 있습니다. 현재 저장소에는 이 작업을 재현할 Python 실행 소스가 포함되어 있지 않아, 설치·실행 명령을 제공하지 않습니다. 이미지 자료는 과제 결과를 살펴보는 용도로 구분합니다.

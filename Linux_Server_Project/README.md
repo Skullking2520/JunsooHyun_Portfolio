@@ -1,45 +1,7 @@
-# Linux Server Project
+# Linux 서버 구성 과제
 
-This project documents the step-by-step configuration and deployment of a server and client system using Rocky Linux and Ubuntu. The tasks involve setting up essential services like DNS, DHCP, email, and web servers, alongside implementing SSL/TLS encryption for secure communication.
+학교에서 진행한 Linux 서버 구성 과제의 보고서 자료입니다.
 
-## Objectives
-1. Install and configure a Rocky Linux server and Ubuntu client.
-2. Deploy and test the following services:
-   - **DNS Server**: Configured using BIND for resolving domain names.
-   - **DHCP Server**: Configured using DHCPd for automatic IP assignment.
-   - **Email Server**: Configured with Postfix and Dovecot for local email communication.
-   - **Web Server**: Configured with Apache to host a basic website.
-   - **SSL/TLS Encryption**: Implemented for email and web servers to ensure secure communication.
-3. Document obstacles encountered and how they were overcome.
+## 포함 자료
 
-## My Contributions
-- Conducted the complete setup and configuration of the Rocky Linux server and Ubuntu client.
-- Implemented and tested the DNS, DHCP, email, and web server functionalities.
-- Researched and partially implemented SSL/TLS encryption, encountering issues with the email server configuration.
-- Documented system configurations, troubleshooting steps, and solutions for various obstacles.
-
-## Skills Demonstrated
-- Linux system administration and configuration
-- Network setup and management (DNS, DHCP)
-- Web and email server deployment
-- Troubleshooting and problem-solving in a Linux environment
-
-## Files
-- `Linux_Project.docx`: Detailed report documenting the entire setup process, including configurations, troubleshooting, and results.
-
-## Key Challenges
-1. **SSL/TLS for Email**: Encountered difficulties with the self-signed certificate, resulting in a partial implementation.
-2. **DNS Configuration**: Resolved issues with incorrect named.conf settings.
-
-## Lessons Learned
-- Improved understanding of server management and network protocols.
-- Gained hands-on experience with Linux-based services and troubleshooting.
-- Enhanced skills in documentation and analysis of complex systems.
-
-## References
-- Server World: [https://www.server-world.info/en/](https://www.server-world.info/en/)
-
-## Contact
-For further questions or feedback, please contact:
-- **Email**: hyunjunsoo1@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/junsoo-hyun-43358b300/
+[Linux Project.docx](<Linux Project.docx>)에서 구성 과정과 과제 내용을 확인할 수 있습니다. 현재 저장소에는 자동 설치 스크립트나 재현용 서버 설정 전체가 포함되어 있지 않습니다. 보고서 자료로 분류하며 운영 중인 서버로 소개하지 않습니다.
