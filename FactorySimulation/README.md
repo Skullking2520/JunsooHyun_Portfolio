@@ -1,16 +1,14 @@
+# Factory simulation
 
-#### **Factory Simulation README**
-```markdown
-# Factory Simulation
+An individual Java coursework assignment that models concurrent production stages and dispatch.
 
-A Java-based simulation of a factory production line, showcasing multi-threading and synchronized operations.
+[Main.java](Main.java) starts the application; [Factory.java](Factory.java) connects the stages. Sterilizing, filling, sealing, labeling, inspection, and packaging have separate classes. LoadingBay, Forklift, and Van handle dispatch, while [FactoryStatistics.java](FactoryStatistics.java) records statistics.
 
-## Features
-- **Multi-Threading**: Simultaneous processes for sterilizing, filling, and packaging.
-- **Synchronization**: Uses `BlockingQueue` and `Semaphore` for thread-safe operations.
-- **Statistics**: Real-time performance metrics like production counts and defect rates.
+Install a JDK and run from this folder:
 
-## How to Use
-1. **Compile**:
-   ```bash
-   javac *.java
+```sh
+javac *.java
+java Main
+```
+
+Counts and elapsed times depend on the configured delays and thread scheduling. They are simulation output, not measured factory performance.
